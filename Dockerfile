@@ -1,7 +1,4 @@
-# julienvincent/nginx:react
-
-FROM nginx:1.9.2
-MAINTAINER Julien Vincent <julienlucvincent@gmail.com>
+FROM nginx:latest
 
 RUN mkdir -p /data/www
 
