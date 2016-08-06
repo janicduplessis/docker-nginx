@@ -1,6 +1,7 @@
 FROM nginx:latest
 
 RUN mkdir -p /data/www
+RUN mkdir -p /data/www/static
 
 # Install supervisor and clean
 RUN apt-get -y update && \
